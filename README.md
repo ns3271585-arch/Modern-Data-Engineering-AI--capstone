@@ -203,6 +203,7 @@ Repository Structure
 Clone the repository:
 
 git clone https://github.com/YOUR-USERNAME/food-delivery-data-engineering-capstone.git
+
 cd food-delivery-data-engineering-capstone
 
 ## Install dependencies:
