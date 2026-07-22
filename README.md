@@ -63,6 +63,8 @@ Great Expectations Quality Gate
 
 Every pipeline stage emits OpenLineage START, COMPLETE, or FAIL events.
 
+---
+
 Deliverable 1 — Kafka Ingestion
 
 The ingestion layer uses Kafka to publish and consume food delivery records.
@@ -159,7 +161,9 @@ Notebook:
 
 notebooks/Deliverable5_Quality_Lineage.ipynb
 
-Technologies Used
+---
+
+Technologies Used :
 Python
 Apache Kafka
 Pydantic
@@ -174,6 +178,9 @@ Apache Airflow
 Great Expectations
 OpenLineage
 Google Colab
+
+---
+
 Repository Structure
 ├── notebooks/
 │   ├── Deliverable1_Kafka_Ingestion.ipynb
