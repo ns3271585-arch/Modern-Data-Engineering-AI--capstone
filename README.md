@@ -65,11 +65,11 @@ Every pipeline stage emits OpenLineage START, COMPLETE, or FAIL events.
 
 ---
 
-Deliverable 1 — Kafka Ingestion
+# Deliverable 1 — Kafka Ingestion
 
 The ingestion layer uses Kafka to publish and consume food delivery records.
 
-Main features:
+#Main features:
 
 Kafka producer and consumer
 Pydantic schema validation
@@ -82,21 +82,21 @@ Notebook:
 
 notebooks/Deliverable1_Kafka_Ingestion.ipynb
 
-Deliverable 2 — Delta Lakehouse
+#Deliverable 2 — Delta Lakehouse
 
 The lakehouse uses Delta Lake with three layers:
 
-Bronze
+#Bronze
 
 Stores raw accepted records in append-only form.
 
-Silver
+#Silver
 
 Cleans and standardizes Bronze records.
 
 A real Delta MERGE performs updates and inserts using a business key.
 
-Gold
+#Gold
 
 Produces genuine analytical aggregates rather than copying Silver data.
 
@@ -106,7 +106,7 @@ Notebook:
 
 notebooks/Deliverable2_Delta_Lakehouse.ipynb
 
-Deliverable 3 — Advanced RAG Pipeline
+#Deliverable 3 — Advanced RAG Pipeline
 
 The RAG pipeline answers questions about food delivery policies.
 
@@ -126,7 +126,7 @@ Notebook:
 
 notebooks/Deliverable3_RAG_Pipeline.ipynb
 
-Deliverable 4 — Airflow Orchestration
+#Deliverable 4 — Airflow Orchestration
 
 Apache Airflow connects all pipeline stages with explicit task dependencies.
 
@@ -140,7 +140,7 @@ Notebook:
 
 notebooks/Deliverable4_Airflow_Orchestration.ipynb
 
-Deliverable 5 — Quality Gate and Lineage
+#Deliverable 5 — Quality Gate and Lineage
 
 Great Expectations validates the trusted Silver data.
 
@@ -163,7 +163,7 @@ notebooks/Deliverable5_Quality_Lineage.ipynb
 
 ---
 
-Technologies Used :
+#Technologies Used :
 Python
 Apache Kafka
 Pydantic
@@ -196,7 +196,9 @@ Repository Structure
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-Installation
+
+
+#Installation
 
 Clone the repository:
 
@@ -209,19 +211,20 @@ pip install -r requirements.txt
 
 The notebooks may also be opened directly in Google Colab.
 
-How to Run
+
+#How to Run
 
 Run the deliverables in this order:
 
-Kafka ingestion
-Delta Lakehouse
-RAG pipeline
-Airflow orchestration
-Quality gate and lineage
+- Kafka ingestion
+- Delta Lakehouse
+- RAG pipeline
+- Airflow orchestration
+- Quality gate and lineage
 
 Each notebook contains setup cells and captured execution output.
 
-Expected Results
+#Expected Results
 
 A successful project run demonstrates:
 
@@ -236,13 +239,16 @@ Airflow task dependencies displayed;
 Great Expectations quality checks executed;
 OpenLineage events emitted;
 pipeline stopped when the quality gate fails.
-Documentation
+
+
+#Documentation
 
 Detailed architecture documentation is available in:
 
 docs/ARCHITECTURE.md
 
-Training Attribution
+
+#Training Attribution
 
 This project was completed as part of the Modern Data Engineering for AI Systems training program delivered by SDAIA Academy.
 
