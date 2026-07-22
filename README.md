@@ -69,7 +69,7 @@ Every pipeline stage emits OpenLineage START, COMPLETE, or FAIL events.
 
 The ingestion layer uses Kafka to publish and consume food delivery records.
 
-##Main features:
+## Main features:
 
 Kafka producer and consumer
 Pydantic schema validation
