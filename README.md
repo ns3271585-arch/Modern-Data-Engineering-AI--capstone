@@ -62,7 +62,7 @@ Great Expectations Quality Gate
       └── Success → RAG Pipeline
 
 Every pipeline stage emits OpenLineage START, COMPLETE, or FAIL events.
-
+```
 ---
 
 # Deliverable 1 — Kafka Ingestion
