@@ -419,10 +419,3 @@ https://github.com/SDAIAAcademy
 
 ---
 
-## Authors
-
-Add all team members before submission:
-
-- [Student name]
-- [Student name]
-- [Student name]
