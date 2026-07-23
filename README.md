@@ -274,7 +274,7 @@ food-delivery-data-engineering-capstone/
 │   └── restaurant_delivery_pipeline.py
 ├── docs/
 │   ├── ARCHITECTURE.md
-│   └── RUBRIC_CHECKLIST.md
+│   
 ├── README.md
 ├── requirements.txt
 └── .gitignore
