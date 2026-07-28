@@ -299,7 +299,7 @@ Airflow installation in Colab uses version-specific constraints inside the noteb
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/Modern-Data-Engineering-AI--capstone.git
+git clone (https://github.com/ns3271585-arch/food-delivery-data-engineering-capstone)
 cd Modern-Data-Engineering-AI--capstone
 ```
 
