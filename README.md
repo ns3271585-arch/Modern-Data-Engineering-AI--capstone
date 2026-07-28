@@ -1,6 +1,6 @@
 # Food Delivery Data Engineering for AI Systems — Capstone
 
-**Students:** [Add all student names]  
+**Students:** Noura Almuqbil, Moudi Alhomoud, Shahad Alotaish
 **Program:** Modern Data Engineering for AI Systems — SDAIA Academy  
 **Trainer:** Mohammed Albeladi  
 **Session dates:** 19 July 2026 – 23 July 2026  
@@ -303,7 +303,7 @@ Airflow installation in Colab uses version-specific constraints inside the noteb
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/Modern-Data-Engineering-AI--capstone.git
+git clone https://github.com/ns3271585-arch/Modern-Data-Engineering-AI--capstone
 cd Modern-Data-Engineering-AI--capstone
 ```
 
