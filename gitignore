@@ -1,0 +1,72 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables, credentials, and secrets
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+kaggle.json
+secrets/
+
+# Jupyter and Colab temporary files
+.ipynb_checkpoints/
+*.tmp
+
+# Kafka runtime files
+kafka_*/
+kafka-logs/
+zookeeper/
+*.log
+
+# Spark and Delta generated files
+spark-warehouse/
+metastore_db/
+derby.log
+delivery_data/
+_delta_log/
+*.crc
+
+# Airflow local runtime files
+airflow/
+airflow.db
+airflow.cfg
+airflow-webserver.pid
+logs/
+
+# RAG and model caches
+chroma_db/
+.chroma/
+cache/
+models/
+
+# Generated validation and lineage evidence
+lineage_events/
+openlineage_events.jsonl
+openlineage_events.jsonl-*
+gx/
+great_expectations/
+uncommitted/
+
+# Generated data and output
+data/
+sample_data/
+output/
+outputs/
+quarantine/
+quarantine_zone/
+dead_letter/
+*.parquet
+*.jsonl
+
+# Operating-system files
+.DS_Store
+Thumbs.db
