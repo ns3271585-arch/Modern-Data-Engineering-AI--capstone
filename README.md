@@ -1,7 +1,6 @@
 # Food Delivery Data Engineering for AI Systems — Capstone
 
-**Students:** Noura Almuqbil, Moudi Alhomoud, Shahad Alotaish
-
+**Students:** [Add all student names]  
 **Program:** Modern Data Engineering for AI Systems — SDAIA Academy  
 **Trainer:** Mohammed Albeladi  
 **Session dates:** 19 July 2026 – 23 July 2026  
@@ -77,6 +76,10 @@ The capstone focuses on demonstrating the required data-engineering concepts usi
 ---
 
 ## System Architecture
+
+> **Detailed architecture documentation is available in `docs/ARCHITECTURE.md`, including the end-to-end pipeline, component interactions, design decisions, and technology stack.**
+
+
 
 ```text
 Food Delivery Events
@@ -177,7 +180,7 @@ The lakehouse notebook implements:
 
 ### Deliverable 3 — Advanced RAG Pipeline
 
-The RAG notebook reads a food-delivery policy PDF and implements:
+The RAG notebook reads a custom food-delivery knowledge base (`data/food_delivery_knowledge_base.pdf`) containing restaurant policies, delivery policies, refund policies, driver guidance, customer FAQs, loyalty-program information, food safety guidance, and platform terms of service. It then implements:
 
 - overlapping sentence chunking;
 - `all-MiniLM-L6-v2` embeddings;
@@ -270,11 +273,12 @@ food-delivery-data-engineering-capstone/
 │   ├── Deliverable3_RAG_Pipeline.ipynb
 │   ├── Deliverable4_Airflow_Orchestration.ipynb
 │   └── Deliverable5_Quality_Gate_Lineage.ipynb
+├── data/
+│   └── food_delivery_knowledge_base.pdf
 ├── dags/
 │   └── restaurant_delivery_pipeline.py
 ├── docs/
-│   ├── ARCHITECTURE.md
-│   
+│   └── ARCHITECTURE.md
 ├── README.md
 ├── requirements.txt
 └── .gitignore
@@ -299,7 +303,7 @@ Airflow installation in Colab uses version-specific constraints inside the noteb
 Clone the repository:
 
 ```bash
-git clone [https://github.com/ns3271585-arch/food-delivery-data-engineering-capstone](https://github.com/ns3271585-arch/Modern-Data-Engineering-AI--capstone)
+git clone https://github.com/YOUR-USERNAME/Modern-Data-Engineering-AI--capstone.git
 cd Modern-Data-Engineering-AI--capstone
 ```
 
@@ -323,9 +327,13 @@ Run the notebooks in numerical order:
 4. `Deliverable4_Airflow_Orchestration.ipynb`
 5. `Deliverable5_Quality_Gate_Lineage.ipynb`
 
-### Deliverable 3 Input
+### Deliverable 3 Knowledge Base
 
-Upload the food-delivery policy PDF to Colab using the filename expected by the notebook:
+The repository includes the knowledge base used by the RAG pipeline:
+
+`data/food_delivery_knowledge_base.pdf`
+
+If you are running the notebook in Google Colab, upload this PDF to the runtime using the filename expected by the notebook:
 
 ```text
 /content/food delivery knowledge base.pdf
@@ -420,3 +428,10 @@ https://github.com/SDAIAAcademy
 
 ---
 
+## Authors
+
+Add all team members before submission:
+
+- [Student name]
+- [Student name]
+- [Student name]
