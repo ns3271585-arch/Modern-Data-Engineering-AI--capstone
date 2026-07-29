@@ -429,12 +429,3 @@ This project was completed as part of the **Modern Data Engineering for AI Syste
 SDAIA Academy GitHub:  
 https://github.com/SDAIAAcademy
 
----
-
-## Authors
-
-Add all team members before submission:
-
-- [Student name]
-- [Student name]
-- [Student name]
